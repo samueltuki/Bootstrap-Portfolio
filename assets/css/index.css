@@ -52,3 +52,16 @@
 
 
 }
+.about-me1 p {
+    color: rgb(0, 0, 0);
+  
+
+}
+
+.projects-wrapper{
+    display: flex;
+justify-content: center;
+color: red;
+
+
+}
