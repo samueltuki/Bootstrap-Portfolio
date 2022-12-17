@@ -1,98 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Needed for responsive design -->
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="Description" content="Enter your description here"/> <!-- Needed for improved SEO -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Needed for responsive design -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="Enter your description here" />
+    <!-- Needed for improved SEO -->
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
 
     <!-- My CSS -->
-    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/index.css" />
     <title>portfolio</title>
-</head>
-<body>
-        <!--NAVIGATION  -->
+  </head>
+  <body>
+    <!--NAVIGATION  -->
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Portfolio</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-  
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">About Me<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Contact</a>
-            </li>
-          </ul>
-          
-        </div>
-      </nav>
-  
+      <a class="navbar-brand" href="#">Portfolio</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >About Me<span class="sr-only">(current)</span></a>            >
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Projects</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link disabled" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
     <!-- Content -->
-    <div class="jumbotron jumbotron-fluid" >
-        <div class="container jumbotron-copy">
-          <h1 class="display-5">Hi, I am Sam an aspiring web developer.</h1>
-          
-          <img src="/assets/images/bio image.jpg" alt="displaypicture">
-        </div>
-      </div>
+    <div class="jumbotron jumbotron-fluid">
+      <!-- about me section -->
 
-
-     <!-- about me section -->
-
-      <div class="about-me1 flex-column">
+      <div class="about-me1 col-sm-6">
         <h1 class="about-me2">About me</h1>
-        <p class="about-me-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, nesciunt repudiandae. Doloremque repudiandae veritatis distinctio minima nobis. Dolores vitae autem temporibus, necessitatibus, asperiores animi nobis excepturi delectus, quisquam placeat aut?Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quis doloribus id maiores, molestias odio voluptatem eos delectus error provident dolorum possimus quibusdam optio labore mollitia deserunt fuga quidem fugiat.</p>
+        <p class="about-me-content">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore,
+          nesciunt repudiandae. Doloremque repudiandae veritatis distinctio
+          minima nobis. Dolores vitae autem temporibus, necessitatibus,
+          asperiores animi nobis excepturi delectus, quisquam placeat aut?Lorem
+          ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quis
+          doloribus id maiores, molestias odio voluptatem eos delectus error
+          provident dolorum possimus quibusdam optio labore mollitia deserunt
+          fuga quidem fugiat.
+        </p>
       </div>
-  
-      
-  <!-- project section -->
-<div class="column">
-    <h1 class="projects-wrapper">Projects</h1>
-    <div class="row">  
-        <div class="card col-lg-4" style="width: 18rem;">
-            <img src="./assets/images/projects.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>         
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="./assets/images/projects.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>         
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="./assets/images/projects.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>         
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="./assets/images/projects.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>         
-        </div>
-        
+
+      <div class="container jumbotron-copy">
+        <h1 class="display-5">Hi, I am Sam an aspiring web developer.</h1>
+
+        <img src="/assets/images/bio image.jpg" alt="displaypicture" />
+      </div>
     </div>
-    
-</div>
- 
-  <!-- contact section -->
 
-  
+    <!-- about me section -->
 
+    <!-- project section -->
+    <div class="column col-lg-12">
+      <h1 class="projects-wrapper">Projects</h1>
+      <div class="row">
+        <div class="card col-lg-4" style="width: 18rem">
+          <img
+            src="./assets/images/projects.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            src="./assets/images/projects.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            src="./assets/images/projects.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            src="./assets/images/projects.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <!-- contact section -->
+    <h1 class="contact">contact</h1>
+    <div class="contact-content">
+      <div>
+        <div>social1</div>
+        <div>social2</div>
+        <div>social3</div>
+      </div>
+    </div>
 
     <!-- End of content -->
 
@@ -103,5 +167,5 @@
 
     <!-- My scripts (optional) -->
     <script src="assets/scripts/script.js"></script>
-</body>
+  </body>
 </html>

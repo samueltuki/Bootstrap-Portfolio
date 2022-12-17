@@ -11,7 +11,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
+    height:80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,6 +19,7 @@
 
 .jumbotron-copy{
     text-align: center;
+    margin-left: 0%;
 }    
 
 .jumbotron img{
@@ -33,27 +34,37 @@
 
 
 .about-me1{
+    /* position: absolute;
+top: 45%; */
+display: inline-block;
+margin-right: 0%;
 
-    display: flex;
-    justify-content:left;
-    align-items: center;
-   
+
 }
 
 .about-me2{
-        color: red;
+    display:flex;
+    justify-content: center;
+    color: red;
+    margin-bottom: 0%;
+
+   
+
         
         
 }
 
 .about-me-content{
+
   
      text-align: center;
 
 
 }
-.about-me1 p {
+.about-me1 p{
+   
     color: rgb(0, 0, 0);
+
   
 
 }
@@ -65,3 +76,32 @@ color: red;
 
 
 }
+
+.contact-content{
+                display: flex;
+                justify-content: center;
+   
+}
+.contact{
+    display: flex;
+justify-content: center;
+color: red;
+
+
+}
+
+/* .lolcard{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+} */
+
+
