@@ -5,9 +5,10 @@
 
 }
 
-/* jumboton css style */
+/* hero css style */
 .hero {
-    background-image: url(../images/bckground.jpg);
+    background: rgb(255,255,255);
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(149, 149, 149, 0.8)), url(../images/bckground.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -15,15 +16,27 @@
     max-height: 100%;
 }
 
+/* project cards */
+#projects .card img {
+    object-fit: cover;
+    object-position: 30% 20%;
+    height: 300px;
+}
+
+/* contact links */
 .contact-content{
-    font-size: 40px;
+    font-size: 30px;
+}
+
+.contact-content i{
+    font-size: 30px;
+    transition: all 0.3s ease-in-out;
 }
 
 .contact-content i:hover{
-    background-color: blue !important;
+    background-color: rgb(0, 123, 255) !important;
     box-shadow: 0px 5px 10px 0px grey; 
-   /* Horizontal Length | Vertical Length  | Blur Radius | Spread Radius | Shaddow colour  */
-  transform: translateY(-3px);
-  transition: all 0.3s ease-in-out;
-
+    /* Horizontal Length | Vertical Length  | Blur Radius | Spread Radius | Shaddow colour  */
+    transform: translateY(-3px);
+    transition: all 0.3s ease-in-out;
 }
