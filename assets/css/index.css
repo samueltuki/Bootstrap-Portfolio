@@ -12,7 +12,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 80vh;
+    min-height: 90vh;
     max-height: 100%;
 }
 
@@ -20,7 +20,15 @@
 #projects .card img {
     object-fit: cover;
     object-position: 30% 20%;
-    height: 300px;
+    height: 100px;
+}
+
+
+.card:hover{
+    background-color: rgb(255, 254, 254) !important;
+    box-shadow: 2px 5px 10px 0px rgb(0, 0, 0); 
+    transform: translateY(-5px);
+    transition: all 0.6s ease-in-out;
 }
 
 /* contact links */
@@ -34,9 +42,45 @@
 }
 
 .contact-content i:hover{
-    background-color: rgb(0, 123, 255) !important;
+    background-color: rgb(255, 0, 0) !important;
     box-shadow: 0px 5px 10px 0px grey; 
     /* Horizontal Length | Vertical Length  | Blur Radius | Spread Radius | Shaddow colour  */
     transform: translateY(-3px);
     transition: all 0.3s ease-in-out;
 }
+
+.projects-section{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50% auto;
+    grid-template-areas: 
+    "project1 project1 project2"
+    "project3 project4 project5"
+    ;
+
+}
+
+#project1{
+        grid-area: project1;
+        margin-right:20px ;
+        
+}
+
+#project2{
+    grid-area: project2;
+}
+
+#project3{
+    grid-area: project3;
+    margin-right:20px ;
+}
+
+#project4{
+grid-area: project4;
+margin-right:20px ;
+}
+
+#project5{
+    grid-area: project5;
+    }
