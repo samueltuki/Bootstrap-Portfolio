@@ -1,11 +1,11 @@
-/* nav bar css style */
+/* nav bar css style ============*/
 .navbar-nav{
     margin-left: auto;
     margin-right: 0 !important;
 
 }
 
-/* hero css style */
+/* hero css style ================*/
 .hero {
     background: rgb(255,255,255);
     background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(149, 149, 149, 0.8)), url(../images/bckground.jpg);
@@ -16,7 +16,7 @@
     max-height: 100%;
 }
 
-/* project cards */
+/* project cards ===========*/
 #projects .card img {
     object-fit: cover;
     object-position: 30% 20%;
@@ -24,39 +24,17 @@
 }
 
 
-.card:hover{
-    background-color: rgb(255, 254, 254) !important;
-    box-shadow: 2px 5px 10px 0px rgb(0, 0, 0); 
-    transform: translateY(-5px);
-    transition: all 0.6s ease-in-out;
-}
-
-/* contact links */
-.contact-content{
-    font-size: 30px;
-}
-
-.contact-content i{
-    font-size: 30px;
-    transition: all 0.3s ease-in-out;
-}
-
-.contact-content i:hover{
-    background-color: rgb(255, 0, 0) !important;
-    box-shadow: 0px 5px 10px 0px grey; 
-    /* Horizontal Length | Vertical Length  | Blur Radius | Spread Radius | Shaddow colour  */
-    transform: translateY(-3px);
-    transition: all 0.3s ease-in-out;
-}
-
 .projects-section{
     margin: 50px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 50% auto;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(auto,4);
     grid-template-areas: 
-    "project1 project1 project2"
-    "project3 project4 project5"
+    "project1"
+    "project2"
+    "project3"
+    "project4"
+    "project5" 
     ;
 
 }
@@ -84,3 +62,44 @@ margin-right:20px ;
 #project5{
     grid-area: project5;
     }
+
+.card:hover{
+    background-color: rgb(255, 254, 254) !important;
+    box-shadow: 2px 5px 10px 0px rgb(0, 0, 0); 
+    transform: translateY(-5px);
+    transition: all 0.6s ease-in-out;
+}
+
+/* contact links ===========*/
+.contact-content{
+    font-size: 30px;
+}
+
+.contact-content i{
+    font-size: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact-content i:hover{
+    background-color: rgb(255, 0, 0) !important;
+    box-shadow: 0px 5px 10px 0px grey; 
+    /* Horizontal Length | Vertical Length  | Blur Radius | Spread Radius | Shaddow colour  */
+    transform: translateY(-3px);
+    transition: all 0.3s ease-in-out;
+}
+
+@media only screen and (min-width:700px){
+
+    .projects-section{
+        margin: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 50% auto;
+        grid-template-areas: 
+        "project1 project1 project2"
+        "project3 project4 project5"
+        ;
+
+    }
+
+}
