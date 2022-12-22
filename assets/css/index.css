@@ -20,7 +20,7 @@
 #projects .card img {
     object-fit: cover;
     object-position: 30% 20%;
-    height: 100px;
+    height: 250px;
 }
 
 
@@ -41,12 +41,14 @@
 
 #project1{
         grid-area: project1;
-        margin-right:20px ;
+        margin-right:20px ;      
         
 }
 
 #project2{
     grid-area: project2;
+    margin-right:20px ;
+    
 }
 
 #project3{
@@ -61,6 +63,7 @@ margin-right:20px ;
 
 #project5{
     grid-area: project5;
+    margin-right:20px ;
     }
 
 .card:hover{
@@ -88,6 +91,11 @@ margin-right:20px ;
     transition: all 0.3s ease-in-out;
 }
 
+/* skill bar ============== */
+ 
+
+
+
 @media only screen and (min-width:700px){
 
     .projects-section{
@@ -102,4 +110,9 @@ margin-right:20px ;
 
     }
 
+}
+
+.skillbar{
+    min-height: 40px;
+    ;
 }
