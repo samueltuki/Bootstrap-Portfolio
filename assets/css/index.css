@@ -1,8 +1,20 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 /* nav bar css style ============*/
 .navbar-nav{
     margin-left: auto;
     margin-right: 0 !important;
 
+}
+
+.collapse a:hover{
+   background-color: rgb(228, 96, 96);
+   box-shadow: 0px 5px 10px 1px rgb(113, 112, 112); 
+   transform: translateY(-3px);
+   transition: all 0.3s ease-in-out;
+  
 }
 
 /* hero css style ================*/
@@ -17,6 +29,16 @@
 }
 
 /* project cards ===========*/
+.card-text{
+   
+  word-wrap:break-word ;
+
+
+}
+#projects {
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgb(135, 134, 134) 4%, rgba(139,138,137,0.592874649859944) 56%, rgba(250,250,250,1) 96%);
+}
 #projects .card img {
     object-fit: cover;
     object-position: 30% 20%;
@@ -41,36 +63,41 @@
 
 #project1{
         grid-area: project1;
-        margin-right:20px ;      
+        margin-right:20px ; 
+       
         
 }
 
 #project2{
     grid-area: project2;
     margin-right:20px ;
-    
+  
 }
 
 #project3{
     grid-area: project3;
     margin-right:20px ;
+  
 }
 
 #project4{
 grid-area: project4;
 margin-right:20px ;
+
 }
 
 #project5{
     grid-area: project5;
     margin-right:20px ;
+   
     }
 
 .card:hover{
-    background-color: rgb(255, 254, 254) !important;
-    box-shadow: 2px 5px 10px 0px rgb(0, 0, 0); 
+    /* background-color: rgb(255, 254, 254) !important; */
+    box-shadow: 0px 5px 10px 1px rgb(113, 112, 112); 
     transform: translateY(-5px);
     transition: all 0.6s ease-in-out;
+   
 }
 
 /* contact links ===========*/
@@ -85,7 +112,7 @@ margin-right:20px ;
 
 .contact-content i:hover{
     background-color: rgb(255, 0, 0) !important;
-    box-shadow: 0px 5px 10px 0px grey; 
+    box-shadow: 0px 5px 10px 3px grey; 
     /* Horizontal Length | Vertical Length  | Blur Radius | Spread Radius | Shaddow colour  */
     transform: translateY(-3px);
     transition: all 0.3s ease-in-out;
